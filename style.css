@@ -1,0 +1,165 @@
+body{
+  background-color:#96B6C5;
+  font-family: cursive;
+}
+footer h2{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+ol li{
+  background-color:pink;
+  padding:15px;
+  width: 20%;
+  border-radius:25%;
+  border-style:ridge;
+  margin:5px;
+}
+
+.contact{
+  background-color:lightyellow;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+  border-radius:10px;
+  border-style:ridge;
+  padding:15px;
+  
+}
+
+
+ul li{
+  background-color:pink;
+  padding:15px;
+  width: 20%;
+  border-radius:20% 7%;
+  border-style:ridge;
+  margin:5px;
+  list-style: none;
+}
+ul li:hover{
+  background-color:#FFD1DA;
+}
+
+.hobbypic{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  background-color:lightgrey;
+  padding:15px;
+  width: 50%;
+  border-radius:10px;
+  border-style:ridge;
+}
+
+header h1{
+  color:;
+  text-align:center;
+  font-size:200%;
+/*   border:solid; */
+  padding:30px;
+  
+}
+
+h2, h3, h4{
+  padding:15px;
+  width: 20%;
+  border-radius:10px;
+  border-style:ridge;
+  
+  background-color:lightgreen;
+}
+
+
+header {
+  border:outset;
+  border-radius:30px;
+  padding: 30px;
+  background-color:lightskyblue;
+}
+.picme {
+  float: right;
+  border:outset;
+  border-radius:30% 10%;
+  width:20%;
+
+}
+
+main{
+  background-image:;
+}
+
+footer{
+  text-align: center;
+  border:outset;
+  background-color:lightskyblue;
+  border-radius:30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+}
+
+.animal {
+  background-color:#EEE0C9;
+  text-align: center;
+  margin:10px;
+  border:outset;
+  padding:10px;
+}
+
+.animal h2{
+  background-color:#E9B384;
+  witdh:50%;
+}
+
+.animalimg {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:5px;
+  border: 7px groove ;
+  border-radius:50%;
+  /* box-shadow: 5px 5px; */
+}
+
+
+
+footer a{
+   text-align: center;
+}
+
+
+.animalimg:hover {
+  animation: rotation 2s;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#hobbies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1em 0;
+}
+#hobbies ul{
+  display: flex;
+  flex-wrap: wrap;
+}
