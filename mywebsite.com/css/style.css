@@ -164,7 +164,7 @@ footer a{
   flex-wrap: wrap;
 }
 
-a{
+.header a{
   width: 10%;
   border: 4px outset lightskyblue;
   background-color:lightskyblue;
