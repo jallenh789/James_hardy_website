@@ -1,1 +1,30 @@
-css
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+p{
+  width: 50%;
+  color:blue;
+  border: 6px ridge #8CABFF;
+  padding: 10px;
+  border-radius: 25% 7%;
+  background-color: #8CABFF;
+  }
+
+h1{
+  width: 50%;
+  color: red;
+  border: 6px ridge #E19898;
+  padding: 10px;
+  border-radius: 25% 7%;
+  background-color: #E19898;
+}
+
+
+a{
+  width: 10%;
+  border: 4px outset lightskyblue;
+  background-color:lightskyblue;
+  padding: 4px;
+  border-radius: 5%;
+}
